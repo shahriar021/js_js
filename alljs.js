@@ -286,18 +286,37 @@
 //----------------ex2----------------
 
 //program to get the extension of a filename
-const getfilename =(str)=>str.slice(str.lastIndexOf('.'));
+// const getfilename =(str)=>str.slice(str.lastIndexOf('.'));
 
-console.log(getfilename('index.html'))
+// console.log(getfilename('index.html'))
 
-emoji: '👍'
-smile: '😀'
-laughing: '😆'
-blush: '😊'
-smiley: '😃'
+// emoji: '👍'
+// smile: '😀'
+// laughing: '😆'
+// blush: '😊'
+// smiley: '😃'
 
-sad: '😔'
-cry: '😢'
+// sad: '😔'
+// cry: '😢'
 
-//i am having fun with git
+// //i am having fun with git
 
+// setTimeout(function(){})
+
+var ans = new Promise((res,rej)=>{
+    var n = Math.floor(Math.random()*10);
+
+    if(n<5){
+        return res()
+    }
+    else{
+        return rej()
+    }
+})
+
+ans.then(function(){
+    console.log("below")
+})
+.catch(function(){
+    console.log("above")
+})

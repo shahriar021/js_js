@@ -46,13 +46,15 @@
 // }
 // console.log(findVowel("shahriar"))
 
-//problem 6 duplicate value in an array
-const numbers = [45, 4, 9, 16, 25,45,4,9,16,25]
-const duplicate = numbers.filter(function(){
+// //problem 6 duplicate value in an array
+// const numbers = [45, 4, 9, 16, 25,45,4,9,16,25]
+// const duplicate = numbers.filter(function(){
 
-})
+// })
 
-const emoji = []
+// const emoji = []
+
+const makeNewString = (str)=>
 
 
 
