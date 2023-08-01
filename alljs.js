@@ -323,4 +323,8 @@ ans.then(function(){
 
 //promises
 
-code will be in your vs
+//code will be in your vs
+
+//now im in git hub
+
+//now im working wit merging and branching
