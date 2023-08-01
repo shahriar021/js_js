@@ -320,3 +320,5 @@ ans.then(function(){
 .catch(function(){
     console.log("above")
 })
+
+//promises
